@@ -1,0 +1,48 @@
+main {
+    padding-top: 120px;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.registration {
+    width: 400px;
+    height: 350px;
+    padding: 20px 20px 0 20px;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.registration label {
+    color: white;
+    font-size: 23px;
+    vertical-align: top;
+}
+
+.registration input {
+    width: 30%;
+    margin-bottom: 15px;
+    vertical-align: bottom;
+    width: 40%;
+    height:25px;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.registration button {
+    width: 80%;
+    height: 50px;
+    margin: 0 50px;
+    font-size: 23px;
+    color: white;
+    background-color: #FF8C42;
+    border-radius: 10px;
+}
